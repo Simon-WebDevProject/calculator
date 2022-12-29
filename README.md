@@ -1,2 +1,2 @@
 # calculator
-Web Calulator
+Web Calculator
