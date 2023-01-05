@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Digital';
-    src: url(fonts/digital/Digital7Italic-BW658.ttf) format('truetype');
+    src: url(fonts/digital/digital-7.ttf) format('truetype');
 }
 
 html, body{
@@ -38,16 +38,22 @@ body{
     height: 20%;
     width: 90%;
     margin: 5%;
+    font-family: 'Digital', system-ui;
+    transition: all 0.3s;
+}
+.screen:hover{
+    border: 1px solid darkorange;
 }
 .equation{
-    margin: 2%;
+    padding: 8px;
     flex: auto;
+    font-size: 1.2rem;
     user-select: none;
 }
 .result{
-    margin: 2%;
+    padding: 12px;
     font-size: 2rem;
-    align-self: end;
+    text-align: end;
     user-select: none;
 }
 .calc button{
